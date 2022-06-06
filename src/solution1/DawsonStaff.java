@@ -7,6 +7,14 @@ public class DawsonStaff {
     private double salary;
     private List schedule;
 
+    public DawsonStaff (String name, double salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
+    public DawsonStaff () {}
+
+    
 
     public double calculate_tax() {
         if (salary <= 45105.00) {
